@@ -1,0 +1,3 @@
+1) Add information from tables 'city' and 'country' into the 'address' table, keeping "address_id" as PRIMARY KEY as the information inside them is only used in 'address'.
+2) Merge 'rental' and 'payment' tables as 'payment' info is only accessed going through 'rental'.
+I would call it 'transaction' keeping everything but the KEYs and creating a new one.
